@@ -12,7 +12,7 @@ function getOrder(pieces, price, count) {
         totalPrice = price * pieces;
         if (totalPrice <= count) {
             credits = credits - totalPrice;
-            window.alert(`вы купили ${pieces} дроидов, на счету ${credits} кредитов `)
+            window.alert(`вы купили ${pieces} дроидов. Стоимость покупки ${totalPrice} кредитов. На счету ${credits} кредитов `)
         } else if (totalPrice > count) {
             window.alert('Недостаточно средств на счету!')
         }

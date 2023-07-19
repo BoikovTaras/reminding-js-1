@@ -1,5 +1,3 @@
-// Tasck 3
-
 const ADMIN_PASSWORD = 'Wassad';
 let message;
 
