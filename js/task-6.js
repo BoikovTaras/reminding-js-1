@@ -10,8 +10,7 @@ function addNumber(num) {
     if (num == null) {
         window.alert(`${total}`)
         return
-    }
-     (num != null) {
+    } else if (num != null) {
         total = Number(total) + Number(num)
     }
 };
